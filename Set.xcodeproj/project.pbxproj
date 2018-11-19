@@ -54,14 +54,22 @@
 		FFF8770121A34151002A4FEA /* Set */ = {
 			isa = PBXGroup;
 			children = (
-				FFF8770221A34151002A4FEA /* AppDelegate.swift */,
+				FFF8771421A341D8002A4FEA /* Supporting Files */,
 				FFF8770421A34151002A4FEA /* ViewController.swift */,
 				FFF8770621A34151002A4FEA /* Main.storyboard */,
 				FFF8770921A34153002A4FEA /* Assets.xcassets */,
-				FFF8770B21A34153002A4FEA /* LaunchScreen.storyboard */,
 				FFF8770E21A34153002A4FEA /* Info.plist */,
 			);
 			path = Set;
+			sourceTree = "<group>";
+		};
+		FFF8771421A341D8002A4FEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF8770221A34151002A4FEA /* AppDelegate.swift */,
+				FFF8770B21A34153002A4FEA /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7K432KHAF3;
 				INFOPLIST_FILE = Set/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = VasiliyIvanov.Set;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7K432KHAF3;
 				INFOPLIST_FILE = Set/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = VasiliyIvanov.Set;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
